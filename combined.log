@@ -1,0 +1,23 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T13:23:47.149Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T13:23:47.307Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T14:36:49.725Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T14:36:49.798Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T14:37:40.520Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T14:37:40.629Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T14:43:45.874Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T14:43:45.986Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T14:44:10.277Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T14:44:10.393Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T15:07:18.228Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T15:07:18.281Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T15:12:32.234Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T15:12:32.341Z"}
+{"level":"info","message":"Task 67864b856352710abd5e99b7 status updated to DONE","timestamp":"2025-01-17T15:13:12.783Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T15:15:50.197Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T15:15:50.360Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T15:19:37.353Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T15:19:37.458Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-01-17T15:20:50.362Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-01-17T15:20:50.413Z"}
+{"level":"info","message":"Task 678a755c4cf0c8903ad712bd status updated to IN_PROGRESS","timestamp":"2025-01-17T15:21:19.620Z"}
+{"level":"info","message":"Task 67864b856352710abd5e99b7 status updated to IN_PROGRESS","timestamp":"2025-01-17T15:21:30.276Z"}
