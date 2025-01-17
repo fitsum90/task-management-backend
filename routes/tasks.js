@@ -14,7 +14,7 @@ const storage = multer.memoryStorage();
 const upload = multer({
   storage,
   limits: {
-    fileSize: 5 * 1024 * 1024, // 5MB limit
+    fileSize: 2 * 1024 * 1024, // 2MB limit
   },
   fileFilter: (req, file, cb) => {
     const allowedTypes = ["image/jpeg", "image/png", "application/pdf"];
@@ -24,7 +24,7 @@ const upload = multer({
       cb(new Error("Invalid file type"));
     }
   },
-});
+}).single("file");
 
 /**
  * @swagger
@@ -57,7 +57,21 @@ router.get("/", getAllTasks);
  *                 type: string
  *                 format: binary
  */
-router.post("/", upload.single("file"), validateTask, createTask);
+router.post(
+  "/",
+  (req, res, next) => {
+    upload(req, res, (err) => {
+      if (err instanceof multer.MulterError && err.code === "LIMIT_FILE_SIZE") {
+        return res.status(400).json({ error: "File size exceeds 2MB" });
+      } else if (err) {
+        return res.status(400).json({ error: err.message });
+      }
+      next();
+    });
+  },
+  validateTask,
+  createTask
+);
 
 router.patch("/:id/status", updateTaskStatus);
 
