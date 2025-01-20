@@ -18,9 +18,7 @@ const PORT = process.env.PORT || 3000;
 
 // MongoDB connection
 mongoose
-  .connect(
-    process.env.MONGODB_URI || "mongodb://localhost:27017/task-management"
-  )
+  .connect(process.env.MONGODB_URI)
   .then(() => logger.info("Connected to MongoDB"))
   .catch((error) => logger.error("MongoDB connection error:", error));
 
